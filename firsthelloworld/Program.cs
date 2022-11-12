@@ -55,8 +55,8 @@ int result = 10 % 3; // restul e 1
 // Comparare
 
 // == equal to- doar valoare boolian
-Console.WriteLine(5 == 5);
-Console.WriteLine(5 == 6);
+//Console.WriteLine(5 == 5);
+//Console.WriteLine(5 == 6);
 
 // != not equal
 // greater than >
@@ -78,8 +78,17 @@ Console.WriteLine(5 == 6);
 //Conditia if
 
 
-switch(DayOfWeek)
-    break
+//switch(DayOfWeek)   
+
+
+
+    //break
+
+
+
+
+
+
 
 
 
