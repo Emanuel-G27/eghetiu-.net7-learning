@@ -10,28 +10,9 @@ namespace LoopsHomework
     {
         public void Go()
         {
-         
-                int[] array = { 1, 2, 2, 3, 4, 6, 7, 7 };
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                for (int j = i + 1; j < array.Length; j++)
-                {
-                    if (array[j] == array[i])
-                    {
-                        Console.WriteLine(array[i]);
-                    }
-                        
-                }
-            }
-            
-               
-                
-
-                
-            
-            
-
+            List<string> l1 = new List<string>() { "a", "b", "c", "d", "c", "d", "e", "a", "f", "f" };
+            var remove = l1.Distinct().ToList();
+            Console.WriteLine(string.Join(", ", remove));
         }
     }
 }
