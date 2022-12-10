@@ -10,9 +10,9 @@ Console.WriteLine(book.GetYear());
 
 Console.WriteLine();
 
-book.SetTitle();
-book.SetAuthor();
-book.SetYear();
+book.SetTitle("Anna Karenina"); 
+book.SetAuthor("Leo Toltoi");
+book.SetYear(1877);
 
 Console.WriteLine();
 

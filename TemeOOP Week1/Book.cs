@@ -9,9 +9,9 @@ namespace TemeOOP_Week1
     public class Book
     {
 
-        public string Title;
-        public string Author;
-        public int Year;
+        public string Title = "War and Peace";
+        public string Author = "Leo Tolstoi";
+        public int Year = 1869 ;
 
         public Book(string title, string author, int year)
         {
@@ -31,20 +31,21 @@ namespace TemeOOP_Week1
         {
             return Year;
         }
-        public void SetTitle()
+        public string SetTitle(string tit)
         {
-            Title = "Anna Karenina";
-            Console.WriteLine(Title);
+            return Title = tit;
+            Console.WriteLine(tit);
         }
-        public void SetAuthor()
+        public string SetAuthor(string aut)
         {
-            Author = "Leo Tolstoi";
-            Console.WriteLine(Author);
+            return Author = aut;
+            Console.WriteLine(aut);
+            
         }
-        public void SetYear()
+        public int SetYear(int y)
         {
-            Year = 1877;
-            Console.WriteLine(Year);
+            return Year = y;
+            Console.WriteLine(y);
         }
             
 
