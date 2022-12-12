@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TemeOOP_Week1
+namespace OOP.Ex2
 {
     public class Product
     {
@@ -32,20 +32,18 @@ namespace TemeOOP_Week1
             return this.Quantity;
         }
 
-        public string SetName(string n)
+        public void SetName(string name)
         {
-            return Name = n;
-            Console.WriteLine(n);
+            Name = name;
         }
-        public float SetPrice(float p)
+        public void SetPrice(float price)
         {
-            return Price = p;
-            Console.WriteLine(p);
+             Price = price;            
         }
-        public int SetQuantity(int q)
+        public void SetQuantity(int quantity)
         {
-            return Quantity = q;
-            Console.WriteLine(q);
+            Quantity = quantity;
         }
-    }
+    }   
+
 }
