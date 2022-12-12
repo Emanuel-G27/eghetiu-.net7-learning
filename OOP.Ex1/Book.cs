@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TemeOOP
+namespace OOP.Ex1
 {
     public class Book
     {
@@ -30,21 +30,17 @@ namespace TemeOOP
         {
             return Year;
         }
-        public string SetTitle(string tit)
+        public void SetTitle(string title)
         {
-            return Title = tit;
-            Console.WriteLine(tit);
+            Title = title;           
         }
-        public string SetAuthor(string aut)
+        public void SetAuthor(string author)
         {
-            return Author = aut;
-            Console.WriteLine(aut);
-
+             Author = author;        
         }
-        public int SetYear(int y)
+        public void SetYear(int year)
         {
-            return Year = y;
-            Console.WriteLine(y);
+            Year = year;           
         }
     }
 }
