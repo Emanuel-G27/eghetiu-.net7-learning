@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NugetPackageExercise
+{
+    public class Book
+    {
+        [Key]
+        public int Id { get; set; }
+        [Required]
+        public string Title { get; set; }
+        public int YearOfPublishing { get; set; }
+
+       // [Column("NrOfPages")]
+        public int NumberOfPages { get; set; }
+        public bool IsHardCover { get; set; }            
+    }
+}
